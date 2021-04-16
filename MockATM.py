@@ -18,22 +18,25 @@ if(name in allowedUsers):
         selectedOption = int(input('Please select an option:'))
         
 
-    if(selectedOption == 1):
-        print('you selected %s' % selectedOption)
+        if(selectedOption == 1):
+            print('you selected %s' % selectedOption)
 
-    elif(selectedOption == 2):
-        print('you selected %s' % selectedOption)
+        elif(selectedOption == 2):
+            print('you selected %s' % selectedOption)
 
-    elif(selectedOption == 3):
-        print('you selected %s' % selectedOption)
+        elif(selectedOption == 3):
+            print('you selected %s' % selectedOption)
 
+        else:
+            print('Invalid Option selected, please try again')
+            
     else:
-        print('Invalid Option selected, please try again')
+        print('Password Incorrect, please try again')
+
+    
 else:
     print('Name not found, please try again')
     
-else:
-    print('Password Incorrect, please try again')
 
 
 import datetime
@@ -82,3 +85,4 @@ elif(selectedOption == 3):
         print('3. Complaint')
 
         break
+
